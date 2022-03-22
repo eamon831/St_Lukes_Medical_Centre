@@ -48,7 +48,7 @@ public abstract class Doc_Database extends RoomDatabase {
                 doc_dao dao = INSTANCE.vet_dao();
                 dao.deleteAll();
 
-                Doctor vd = new Doctor("Ielmex","600mg",	"1b/80kg",	"Reneta",	"Albendazole",	"Bolus","",""	);
+                Doctor vd = new Doctor(10000,"baal","baal","baal");
                 dao.insert(vd);
 
             });

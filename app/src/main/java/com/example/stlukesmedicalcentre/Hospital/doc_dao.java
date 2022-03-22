@@ -22,13 +22,13 @@ public interface doc_dao {
     @Delete
     void delete(Doctor vd);
 
-    @Query("DELETE FROM vet_data")
+    @Query("DELETE FROM tbdoctor")
     void deleteAll();
 
-    @Query("SELECT * FROM vet_data ORDER BY id DESC")
+    @Query("SELECT * FROM tbdoctor ORDER BY id DESC")
     LiveData<List<Doctor>> getAlldata();
 
-    @Query("SELECT * FROM vet_data WHERE trade_name LIKE :search OR generic_name LIKE :search")
+    @Query("SELECT * FROM tbDoctor WHERE name LIKE :search OR dept LIKE :search")
     LiveData<List<Doctor>> getSearcheddata(String search);
 }
 

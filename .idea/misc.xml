@@ -3,12 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/drawable-v24/curved.xml" value="0.1" />
+        <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/drawable-v24/rec_view.xml" value="0.173" />
         <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/drawable/ic_id.xml" value="0.173" />
         <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/drawable/profile.xml" value="0.173" />
         <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/drawable/rounded_background.xml" value="0.173" />
         <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/activity_booking.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/activity_contact_us.xml" value="0.33" />
+        <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/activity_gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/activity_gallery2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/activity_image_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/activity_kopal.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/activity_main_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/activity_registration.xml" value="0.22" />
+        <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/activity_single_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/activity_web.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/card_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/confirm.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/single_row.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/emon/StLukesMedicalCentre/app/src/main/res/layout/vetdatashow_recycler_row.xml" value="0.20416666666666666" />
       </map>
     </option>

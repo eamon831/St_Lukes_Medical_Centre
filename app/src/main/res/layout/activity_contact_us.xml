@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact_us"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:padding="10dp"
+            android:background="@drawable/curved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+Clinic Name
+St Lukes Medical Centre\n
+Clinic Type
+GP Clinic\n
+Website
+http://www.stlukesmed.co.nz\n
+Phone
+09 815 1124\n
+Fax
+09 815 0838"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/stlukesqc_0">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -3,6 +3,7 @@ package com.example.stlukesmedicalcentre.Database;
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.Query;
+import androidx.room.Update;
 
 import java.util.List;
 
@@ -22,6 +23,10 @@ public interface UserDao {
     @Query("SELECT EXISTS(SELECT *FROM Model WHERE `Nhi Number` = :nhi )")
     Boolean exist(String nhi);
 
+    @Query("SELECT *FROM Model WHERE `Nhi Number` = :nhi" )
+    Model singleitem(String nhi);
+    @Update
+    void update(Model model);
     //@Delete
     //void delete(User user);
 

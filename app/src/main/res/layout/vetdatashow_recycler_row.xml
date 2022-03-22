@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    android:elevation="5dp">
+    android:elevation="5dp"
+    android:id="@+id/root">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +20,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Trade Name : "
+                android:text="Name : "
                 android:textSize="17dp"
                 android:textColor="#000000"
                 android:textStyle="bold">
@@ -27,7 +28,7 @@
             </TextView>
 
             <TextView
-                android:id="@+id/trade_name"
+                android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="17dp"
@@ -45,7 +46,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Composition : "
+                android:text="Department : "
                 android:textSize="17dp"
                 android:textColor="#000000"
                 android:textStyle="bold">
@@ -53,7 +54,7 @@
             </TextView>
 
             <TextView
-                android:id="@+id/composition"
+                android:id="@+id/department"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="17dp"
@@ -71,7 +72,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Trade Dose : "
+                android:text="Date &amp; Time : "
                 android:textSize="17dp"
                 android:textColor="#000000"
                 android:textStyle="bold">
@@ -79,7 +80,7 @@
             </TextView>
 
             <TextView
-                android:id="@+id/trade_dos"
+                android:id="@+id/time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="17dp"
@@ -90,135 +91,10 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Company : "
-                android:textSize="17dp"
-                android:textColor="#000000"
-                android:textStyle="bold">
 
-            </TextView>
 
-            <TextView
-                android:id="@+id/company"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="17dp"
-                android:textColor="#000000"
-                android:textStyle="italic">
 
-            </TextView>
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Generic Name : "
-                android:textSize="17dp"
-                android:textColor="#000000"
-                android:textStyle="bold">
-
-            </TextView>
-
-            <TextView
-                android:id="@+id/generic_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="17dp"
-                android:textColor="#000000"
-                android:textStyle="italic">
-
-            </TextView>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pack Size : "
-                android:textSize="17dp"
-                android:textColor="#000000"
-                android:textStyle="bold">
-
-            </TextView>
-
-            <TextView
-                android:id="@+id/pack_size"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="17dp"
-                android:textColor="#000000"
-                android:textStyle="italic">
-
-            </TextView>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Comments : "
-                android:textSize="17dp"
-                android:textColor="#000000"
-                android:textStyle="bold">
-
-            </TextView>
-
-            <TextView
-                android:id="@+id/comments"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="17dp"
-                android:textColor="#000000"
-                android:textStyle="italic">
-
-            </TextView>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Details : "
-                android:textSize="17dp"
-                android:textColor="#000000"
-                android:textStyle="bold">
-
-            </TextView>
-
-            <TextView
-                android:id="@+id/details"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="17dp"
-                android:textColor="#000000"
-                android:textStyle="italic">
-
-            </TextView>
-
-        </LinearLayout>
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>

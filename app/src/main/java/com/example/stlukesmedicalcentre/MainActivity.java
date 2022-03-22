@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 //todo: you can call your method what you want.
-                startActivity(new Intent(MainActivity.this,Booking.class));
+
+                startActivity(new Intent(MainActivity.this,Main_Menu.class));
                  finish();
 
             }

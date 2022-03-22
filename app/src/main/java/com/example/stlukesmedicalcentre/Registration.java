@@ -85,7 +85,7 @@ public class Registration extends AppCompatActivity {
             return;
         }
 
-        AppDatabase db= Room.databaseBuilder(getApplicationContext(),AppDatabase.class,"room_db").allowMainThreadQueries().build();
+        AppDatabase db= Room.databaseBuilder(getApplicationContext(),AppDatabase.class,"tbuser_dd").allowMainThreadQueries().build();
         UserDao userDao=db.userDao();
         if(userDao.exist(nhi))
         {
@@ -95,6 +95,7 @@ public class Registration extends AppCompatActivity {
 
         Model model=new Model(0,first,last,DOB,nhi,t);
         userDao.insert(model);
+        Toast.makeText(this, "User Successfully Registered", Toast.LENGTH_LONG).show();
 
         f_name.setText("");
         l_name.setText("");
